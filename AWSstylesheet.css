@@ -2,23 +2,24 @@ body {
 	background-color: #C6A0D8;
 }
 
-h3 {
+.title {
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Lato', sans-serif;
-
+	font-family: 'Bungee Shade', cursive;
+	padding: 20px;
+	margin: 20px;
 }
 
-h4 {
+.follow {
 	text-align: center;
 	font-size: 25px;
-	color: #3D17C9;
+	color: #D30097;
 	background: #C6A0D8;
 	font-family: 'Bungee Shade', cursive;
 	padding: 20px;
 }	
 
-p {
+.bio {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 }
@@ -26,11 +27,8 @@ p {
 
 li {
 	display: inline;
-	font-size: 15px;
 	color: #3D17C9;
 	padding: 20px;
-	
-
 }
 
 ul {
@@ -44,3 +42,32 @@ a {
 	text-decoration: none;
 	text-decoration-color: #3D17C9;
 }
+
+a:visited {
+	color: #3D17C9;
+}
+
+a:hover {
+	color:#D30097;
+	transition: all 1s;
+}
+
+
+.linkedin {
+	font-size: 30px;
+	color: #3D17C9;
+}
+
+.instagram {
+	font-size: 30px;
+	color: #3D17C9;
+}
+
+
+
+
+
+
+
+
+
