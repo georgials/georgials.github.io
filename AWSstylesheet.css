@@ -1,40 +1,43 @@
 body {
-	background-color: #C6A0D8;
+	background: url("wordsgeorgia.png");
 }
 
 .title {
-	text-align: center;
-	font-size: 30px;
+	text-align: right;
+	font-size: 20px;
 	font-family: 'Bungee Shade', cursive;
 	padding: 20px;
 	margin: 20px;
 }
 
 .follow {
-	text-align: center;
+	text-align: right;
 	font-size: 25px;
 	color: #D30097;
-	background: #C6A0D8;
 	font-family: 'Bungee Shade', cursive;
 	padding: 20px;
 }	
 
 .bio {
-	text-align: center;
+	text-align: right;
+	color: #3D17C9;
+	font-size: 30px;
 	font-family: 'Lato', sans-serif;
+	padding-left: 650px;
+	padding-right: 20px;
+	padding-top: 10px;
 }
 
 
 li {
 	display: inline;
 	color: #3D17C9;
-	padding: 20px;
+	padding: 15px;
 }
 
 ul {
-	text-align: center;
-	background-color: #C6A0D8;
-	padding: 20px;
+	text-align: right;
+	padding: 10px;
 	font-family: 'Lato', sans-serif; 
 }
 
@@ -54,16 +57,70 @@ a:hover {
 
 
 .linkedin {
-	font-size: 30px;
+	text-align: right;
+	font-size: 20px;
+	color: #D30097;
+	font-family: 'Bungee Shade', cursive;
+}
+
+.linkedin a:visited {
+	color: #D30097;
+}
+
+.linkedin a:hover {
 	color: #3D17C9;
 }
 
 .instagram {
-	font-size: 30px;
+	text-align: right;
+	font-size: 20px;
+	color: #D30097;
+	font-family: 'Bungee Shade', cursive;
+}
+
+.instagram a:visited {
+	color: #D30097;
+}
+
+.instagram a:hover {
 	color: #3D17C9;
 }
 
+@media screen and (max-width: 400px) {
+	body {
+		background: url("mobilegeorgia2.png");
+	}
 
+	.title {
+		text-align: right;
+		font-size: 20px;
+		font-family: 'Bungee Shade', cursive;
+		padding: 5px;
+		margin: 10px;
+		color: #3D17C9;
+	}
+	.follow {
+		text-align: center;
+		font-size: 20px;
+		padding: 10px;
+		margin-top: 150px;
+	}	
+
+	.linkedin {
+		font-size: 20px;
+	}
+
+	.instagram {
+		font-size: 20px;
+	}
+
+	.bio {
+		font-size: 120%;
+		padding-left: 120px;
+		padding-right: 5px;
+		padding-bottom: 0px;
+		padding-top: 15px;
+	}
 
 
 
