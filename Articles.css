@@ -5,16 +5,23 @@ body {
 h1 {
 	text-align: center;
 	font-size: 60px;
-	color: #D30097 ;
+	color: #D30097;
 	background: #C6A0D8;
 	font-family:'Bungee Shade', cursive;
 	padding: 20px;
+	margin-bottom: 35px;
 }
 
 .article {
 	font-size: 20px;
 	font-family: 'Lato', sans-serif;
-	padding: 10px;
+	color: #3D17C9;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+
 }
 
 img{
@@ -22,3 +29,23 @@ img{
 	margin: auto;
 	width: 40%;
 }
+
+@media screen and (max-width: 400px) {
+	h1 {
+		font-size: 300%;
+	}
+
+	.article {
+		padding-left: 35px;
+		padding-right: 35px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+	}
+
+
+
+
+
+
+
