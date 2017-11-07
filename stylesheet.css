@@ -7,20 +7,18 @@ h1 {
 	text-align: left;
 	color: #D30097;
 	font-family:'Bungee Shade', cursive;
-	padding: 20px;
 }
 
 li {
 	color: #3D17C9 ;
 	display: inline;
-	margin: 18px;
+	padding: 10px;
 }
 
 ul {
 	text-align: left;
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'Bungee Shade', cursive;
-	padding: 20px;
 }
 
 a {
@@ -44,19 +42,29 @@ a:hover {
 
 	h1 {
 		font-size: 240%;
-		padding: 10px;
 	}
 
 	li {
 		display: block;
-		margin: 10px;
 	}
 
 	ul {
 		font-size: 150%;
-		padding: 10px;
 	}	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
