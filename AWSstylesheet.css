@@ -28,7 +28,7 @@ body {
 	font-size: 30px;
 	color: #D30097;
 	font-family: 'Bungee Shade', cursive;
-	padding: 20px;
+	padding: 10px;
 }	
 
 .bio {
@@ -36,20 +36,18 @@ body {
 	padding-top: 20px;
 	color: #3D17C9;
 	font-size: 30px;
-	font-family: 'Arvo', serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
 li {
-	display: inline;
+	display: block;
 	color: #3D17C9;
-	padding: 15px;
 }
 
 ul {
 	text-align: right;
-	padding: 10px;
-	font-family: 'Lato', sans-serif; 
+	font-family: 'Bungee Shade', cursive; 
 }
 
 a {
@@ -72,6 +70,8 @@ a:hover {
 	font-size: 25px;
 	color: #D30097;
 	font-family: 'Bungee Shade', cursive;
+	padding-right: 100px;
+	padding-bottom: 10px;
 }
 
 .linkedin a:visited {
@@ -87,6 +87,7 @@ a:hover {
 	font-size: 25px;
 	color: #D30097;
 	font-family: 'Bungee Shade', cursive;
+	padding-right: 90px;
 }
 
 .instagram a:visited {
@@ -128,9 +129,6 @@ a:hover {
 	.bio {
 		font-size: 120%;
 	}
-
-
-
 
 
 
