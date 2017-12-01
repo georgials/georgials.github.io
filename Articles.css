@@ -16,7 +16,7 @@ body {
 	font-size: 20px;
 	color: #3D17C9;
 	text-align: left;
-	font-family: 'Arvo', serif;
+	font-family: 'Roboto', sans-serif;
 	margin-top: 50px;
 }
 
@@ -30,11 +30,18 @@ h1 {
 
 .article {
 	font-size: 20px;
-	font-family: 'Arvo', serif;
+	font-family: 'Roboto', sans-serif;
 	color: black;
 	text-align: justify;
 	padding: 5px;
 
+}
+
+.alanaimg {
+	height: 350px;
+	width: 350px;
+	float: right;
+	padding-left: 10px;
 }
 
 img{
