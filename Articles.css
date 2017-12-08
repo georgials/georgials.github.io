@@ -6,6 +6,30 @@ body {
 	background-color: #E5E9F2;
 }
 
+li {
+	display: block;
+	color: #3D17C9;
+}
+
+ul {
+	text-align: right;
+	font-family: 'Bungee Shade', cursive; 
+}
+
+a {
+	text-decoration: none;
+	text-decoration-color: #3D17C9;
+}
+
+a:visited {
+	color: #3D17C9;
+}
+
+a:hover {
+	color:#D30097;
+	transition: all 1s;
+}
+
 .homepage {
 	font-size: 40px;
 	font-family: 'Bungee Shade', cursive;
@@ -20,12 +44,18 @@ body {
 	margin-top: 50px;
 }
 
-h1 {
+.header {
 	text-align: center;
-	font-size: 70px;
-	color: #D30097;
-	background: #E5E9F2;
+	font-size: 55px;
+	color: #E23E28;
 	font-family: 'Bungee Shade', cursive;
+}
+
+.byline {
+	text-align: center;
+	font-size: 35px;
+	color: #E2705B;
+	font-family: 'Roboto', sans-serif;
 }
 
 .article {
@@ -33,28 +63,41 @@ h1 {
 	font-family: 'Roboto', sans-serif;
 	color: black;
 	text-align: justify;
-	padding: 5px;
+	padding: 15px;
 
 }
 
 .alanaimg {
-	height: 350px;
-	width: 350px;
+	height: 425px;
+	width: 400px;
 	float: right;
-	padding-left: 10px;
+	padding-top: 20px;
 }
 
-img{
-	display: block;
-	margin: auto;
-	padding: 10px;
+.chart {
+	padding: 20px;
 }
+
+blockquote {
+	border-left: 5px solid #D30097;
+	font-size: 30px;
+}
+
 
 @media screen and (max-width: 400px) {
-	h1 {
+	.header {
 		font-size: 300%;
 	}
 
+	.byline {
+		font-size: 200%;
+
+	}
+
+	.alanaimg {
+		float: none;
+		height: 375px;
+		width: 350px;
 	}
 
 
