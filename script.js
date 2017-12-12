@@ -41,3 +41,4 @@ Highcharts.setOptions({
     }]
 });
     });
+
